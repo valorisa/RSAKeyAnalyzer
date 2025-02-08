@@ -8,15 +8,18 @@ Use the following command to generate an RSA private key:
 
 ```bash
 openssl genrsa -out nom_de_la_clé.pem 4096
-Explanation
+```
+## Explanation
 openssl genrsa: This is the OpenSSL command used to generate an RSA private key.
 -out nom_de_la_clé.pem: This option specifies the output file where the private key will be saved. Replace nom_de_la_clé.pem with your desired file name.
 4096: This specifies the key length in bits. A key length of 4096 bits is considered very secure.
-Example
+
+## Example
 To generate a private key named my_private_key.pem with a length of 4096 bits, you would run:
 
-
+```bash
 openssl genrsa -out my_private_key.pem 4096
+```
 This command will create a file named my_private_key.pem containing the RSA private key.
 
 Notes
